@@ -2,7 +2,14 @@
 applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
+<<<<<<< HEAD
   random-route: true
+=======
+  routes:
+  - route: pal-tracker-pietro-sampsonite.apps.chicken.pal.pivotal.io
+  services:
+  - tracker-database
+>>>>>>> 3e66886... Persist time entries in database
   env:
     WELCOME_MESSAGE: Hello from Cloud Foundry
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'

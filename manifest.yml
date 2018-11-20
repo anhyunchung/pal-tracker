@@ -9,6 +9,9 @@ applications:
   - route: pal-tracker-pietro-sampsonite.apps.chicken.pal.pivotal.io
   services:
   - tracker-database
+<<<<<<< HEAD
+>>>>>>> 3e66886... Persist time entries in database
+=======
 >>>>>>> 3e66886... Persist time entries in database
   env:
     WELCOME_MESSAGE: Hello from Cloud Foundry
